@@ -1,0 +1,75 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus"
+        },
+        "networkInterfaceName": {
+            "value": "wpd2asv4-a4"
+        },
+        "subnetName": {
+            "value": "vnet1-first-subnet"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/010d599b-e460-41c2-9426-bb0fc479e833/resourceGroups/ephemeral-rg/providers/Microsoft.Network/virtualNetworks/vnet1"
+        },
+        "virtualMachineName": {
+            "value": "wpd2asv4-a"
+        },
+        "virtualMachineComputerName": {
+            "value": "wpd2asv4-a"
+        },
+        "virtualMachineRG": {
+            "value": "ephemeral-rg"
+        },
+        "osDiskType": {
+            "value": "Premium_LRS"
+        },
+        "osDiskDeleteOption": {
+            "value": "Delete"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D2as_v4"
+        },
+        "nicDeleteOption": {
+            "value": "Delete"
+        },
+        "hibernationEnabled": {
+            "value": false
+        },
+        "adminUsername": {
+            "value": "azureuser"
+        },
+        "adminPassword": {
+            "value": "#B3efy_Winner!"
+        },
+        "patchMode": {
+            "value": "AutomaticByPlatform"
+        },
+        "enableHotpatching": {
+            "value": true
+        },
+        "rebootSetting": {
+            "value": "IfRequired"
+        },
+        "autoShutdownStatus": {
+            "value": "Enabled"
+        },
+        "autoShutdownTime": {
+            "value": "03:00"
+        },
+        "autoShutdownTimeZone": {
+            "value": "Eastern Standard Time"
+        },
+        "autoShutdownNotificationStatus": {
+            "value": "Enabled"
+        },
+        "autoShutdownNotificationLocale": {
+            "value": "en"
+        },
+        "autoShutdownNotificationEmail": {
+            "value": "waforbes100@hotmail.com,walt.a.forbes@gmail.com"
+        }
+    }
+}
