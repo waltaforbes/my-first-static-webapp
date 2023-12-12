@@ -42,7 +42,7 @@
             "value": "azureuser"
         },
         "adminPassword": {
-            "value": "#B3efy_Winner!"
+            "value": mull
         },
         "patchMode": {
             "value": "AutomaticByPlatform"
